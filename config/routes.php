@@ -76,7 +76,7 @@ if ($count = count($command))
             }
             else
             {
-                include DOCROOT."/app/views/public/404.php";
+                include DOCROOT."/core/libs/views/404.php";
             }
             break;
     }

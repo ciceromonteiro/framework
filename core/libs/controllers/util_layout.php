@@ -49,21 +49,21 @@ function head($title=NULL)
 {
 	global $CFG;
 	title($title);
-	include DOCROOT."/core/libs/views/head.php";
+	include DOCROOT."/app/views/public/head.php";
 	return FALSE;
 }
 
 function menu()
 {
 	global $CFG;
-	include DOCROOT."/core/libs/views/menu.php";
+	include DOCROOT."/app/views/public/menu.php";
 	return FALSE;
 }
 
 function footer()
 {
     global $CFG;
-    include DOCROOT."/core/libs/views/footer.php";
+    include DOCROOT."/app/views/public/footer.php";
     return FALSE;
 }
 ?>
