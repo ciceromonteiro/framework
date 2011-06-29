@@ -1,0 +1,77 @@
+
+body{
+    background: #fff url(../../img/bg_nav.jpg) left top repeat-x;
+}
+
+.container{
+    background: #fff;
+    padding: 0;
+}
+
+/* top section
+*/
+div.top-section{
+    padding: 8px 0;
+    margin: 0;
+}
+
+div.top-menu{
+    text-align: right;
+    padding-top: 20px;
+}
+
+/* menu
+*/
+div.menu{
+    background: #575757 url(../../img/bg_nav.jpg) left center repeat-x;
+    height: 28px;
+    padding: 7px 0;
+}
+
+h2.main-title{
+    font-size: 18px;
+    font-family:  arial, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+/* page heading
+----------------------------------------------- */
+h2.page-heading {
+    font-weight:normal;
+    padding: 2px 4px;
+    margin:0 0 10px 0;
+    border-bottom:2px solid #969A92;
+    color: #333;
+}
+
+/* status 
+****************************************/
+.status{
+    font-size: 12px;
+    text-align: right;
+    display: block;
+    padding: 6px 0;
+    color: #ccc;
+}
+.status a{
+    color: #ccc;
+}
+.status a:hover{
+    color: #fff;
+}
+
+/* footer 
+****************************************/
+
+.footer{
+    padding: 3px 0;
+    font-size: 11px;
+    background-color: #c3d9ff;
+    border-top: 1px solid #999;
+}
+.footer p       { margin: 0 3px; padding:0; } 
+.footer a       { color: #222; } 
+.footer a:hover { color: #000; } 

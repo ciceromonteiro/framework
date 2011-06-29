@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/** 
+ * Default Advanced CSS Drop-Down Menu Theme
+ *
+ * @file		default.advanced.css
+ * @name		Default
+ * @version		0.1
+ * @type		transitional
+ * @browsers	Windows: IE5+, Opera9+, Firefox2+
+ *				Mac OS: Safari2+, Firefox2+
+ *
+ * @link		http://www.lwis.net/
+ * @copyright	2009 Live Web Institute. All Rights Reserved.
+ *
+ */
+
+@import "default.css";
+
+
+/*-------------------------------------------------/
+ * @section		Base Style Extension
+ */
+
+ul.dropdown li a {
+ display: block;
+}
+
+ul.dropdown ul li a{
+ font-weight: normal;
+}
+
+
+/*-------------------------------------------------/
+ * @section		Base Style Override
+ */
+
+ul.dropdown li {
+
+}
+ul.dropdown li.first{background-image: none;}
+
+
+/*-------------------------------------------------/
+ * @section		Base Style Reinitiate: post-override activities
+ */
+
+ul.dropdown li.dir {
+ /*padding: 0 30px 0 5px;
+ padding: 5px;*/
+}
+
+ul.dropdown li.dir:hover {
+ background-color: #343434;
+}
+
+ul.dropdown ul li.dir {
+ color: #f0f0f0;
+ text-transform: uppercase;
+ font-weight: normal;
+}
+ul.dropdown ul li.dir span {display: block;border-bottom: 1px solid #fafafa;}
+
+
+/*-------------------------------------------------/
+ * @section		Custom
+ */
+
+ul.dropdown ul {
+ padding: 0 10px;
+ width: 98%;
+ color: #fff;
+}
+
+ul.dropdown ul a {
+ width: 140px;
+ padding: 3px 5px;
+ margin: 0;
+ background: none;
+ /*background: url(images/pattern2.png) 0 0 repeat-x;
+ border-bottom: 1px solid #2F2F2F;*/
+ color: #dadada;
+}
+ul.dropdown ul li{color: #fdfdfd;}
+
+ul.dropdown ul a:hover {
+ /*background-color: #ffa500;*/
+ background-color: #fdfdfd;
+ color: #000;
+}
+
+ul.dropdown ul ul {
+ padding: 0;
+ margin-left: -5px; 
+}

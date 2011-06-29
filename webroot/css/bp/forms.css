@@ -1,0 +1,104 @@
+/* -------------------------------------------------------------- 
+   
+   forms.css
+   * Sets up some default styling for forms
+   * Gives you classes to enhance your forms
+   
+   Usage:
+   * For text fields, use class .title or .text
+   
+-------------------------------------------------------------- */
+
+label       { width:100%; display: block; margin-top: 2px; font-weight: bold; color: #333; }
+fieldset    { padding:1.4em; margin: 0 0 1.5em 0; border: 1px solid #ccc; }
+legend      { font-weight: bold; font-size:1.2em; }
+
+
+/* Form fields
+-------------------------------------------------------------- */
+
+input.text,
+select,
+textarea {
+    padding: 2px;
+    border: 1px solid #AFAFAF;
+    width: 85%;
+    font-size: 12px;
+}
+input.text:focus,
+select:focus,
+textarea:focus {
+    border: 1px solid #3F3F3F;
+}
+input.empty,
+input.empty:focus{
+    background: #FFCABF;
+    border-color: #c00;
+}
+
+input.short,
+select.short,
+textarea.short{
+    width: 44%;
+}
+
+/*
+input.button{
+    margin-top: 5px;
+    font: normal 11px "Lucida Grande", Verdana, Arial, "Bitstream Vera Sans", sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #bbb;
+    padding: 4px !important;
+    border-color: #298cba !important;
+    font-weight: bold;
+    color: #FFF !important;
+    background: #21759B url(../../img/button-grad.png) repeat-x scroll left top;
+}
+
+input.button:hover{
+    border: 1px solid #000 !important;
+}
+
+input.big{
+	font-size: 22px;
+}
+*/
+
+
+/* Success, notice and error boxes
+-------------------------------------------------------------- 
+
+.error,
+.notice, 
+.success    { padding: .8em; margin-bottom: 1em; border: 2px solid #ddd; }
+
+.error      { background: #FBE3E4; color: #8a1f11; border-color: #FBC2C4; }
+.notice     { background: #FFF6BF; color: #514721; border-color: #FFD324; }
+.success    { background: #E6EFC2; color: #264409; border-color: #C6D880; }
+.error a    { color: #8a1f11; }
+.notice a   { color: #514721; }
+.success a  { color: #264409; }
+*/
+
+/* Success, notice and error boxes
+-------------------------------------------------------------- 
+*/
+p.error, p.notice, p.success, p.alert {
+    border-width:1px;
+    border-style:solid;
+    padding:0 .6em;
+    padding:5px 9px 5px 20px ;
+    margin-bottom:10px; 
+    font-weight: bold;
+}
+
+p.error {background:#FBE3E4 url(../../img/icons/210.png) 3px 50% no-repeat;color:#8a1f11;border-color:#FBC2C4;}
+p.notice {background: #D8E6F1 url(../../icons/img/282.png) 3px 50% no-repeat;color:#333;border-color: #53ADC8;}
+p.alert {background:#FFF6BF url(../../icons/img/50.png) 3px 50% no-repeat;color:#514721;border-color:#FFD324;}
+p.success {background:#E6EFC2 url(../../icons/img/02.png) 3px 50% no-repeat; color:#333;border-color:#8CCF81;}
+p.error a {color:#8a1f11;}
+p.notice a {color:#514721; text-decoration: underline;}
+p.notice a:hover{color: #7F7037;}
+p.success a {color:#264409;}
+p.alert a{color: #8F7E11;}

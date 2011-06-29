@@ -1,0 +1,10 @@
+# Turn on the RewriteEngine
+RewriteEngine On
+Options +FollowSymLinks
+Options -Indexes
+IndexIgnore */*
+# Rules
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteBase /monteiro/config/routes.php
+RewriteRule . /monteiro/config/routes.php
